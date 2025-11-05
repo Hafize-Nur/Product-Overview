@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    transition: background-color 0.3s ease;
+
+    @media (min-width: 768px) {
+      padding: 1rem 2rem;
+    }
+  
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+
+      @media (min-width: 480px) {
+        font-size: 1.5rem;
+      }
+    }
+  
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+
+      @media (min-width: 480px) {
+        gap: 1rem;
+      }
+
+      @media (min-width: 768px) {
+        gap: 1.5rem;
+        flex-wrap: nowrap;
+      }
+  
+      li a {
+        text-decoration: none;
+        color: var(--white-color);
+        font-weight: 500;
+        font-size: 0.875rem;
+        transition: color 0.3s ease;
+
+        @media (min-width: 480px) {
+          font-size: 1rem;
+        }
+  
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+  }
+  

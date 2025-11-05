@@ -1,0 +1,60 @@
+/* src/components/Accordion/Accordion.module.scss */
+.accordionSection {
+  padding: 0 1rem;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+
+  .accordionItem {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 0.5rem;
+
+    .accordionHeader {
+      background: var(--bg-color);
+      color: var(--text-color);
+      width: 100%;
+      text-align: left;
+      padding: 0.875rem;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.3s;
+
+      @media (min-width: 480px) {
+        padding: 1rem;
+        font-size: 1rem;
+      }
+
+      &:hover {
+        background: var(--accent-color);
+        color: var(--white-color);
+      }
+    }
+
+    .accordionContent {
+      padding: 0.875rem;
+      background: var(--card-bg);
+      color: var(--text-color);
+      line-height: 1.5;
+      font-size: 0.9rem;
+
+      @media (min-width: 480px) {
+        padding: 1rem;
+        font-size: 1rem;
+      }
+    }
+
+    .icon {
+      font-weight: bold;
+      font-size: 1.1rem;
+
+      @media (min-width: 480px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

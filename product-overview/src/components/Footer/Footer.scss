@@ -1,0 +1,156 @@
+@import "../../styles/variables";
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 2rem 1rem;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 2.5rem 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+
+  &__logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    @media (min-width: 480px) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__text {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    max-width: 100%;
+
+    @media (min-width: 480px) {
+      font-size: 0.9rem;
+      max-width: 250px;
+    }
+  }
+
+  &__links,
+  &__socials {
+    width: 100%;
+
+    @media (min-width: 768px) {
+      width: auto;
+    }
+  }
+
+  &__links h4,
+  &__socials h4 {
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    color: var(--white-color);
+
+    @media (min-width: 480px) {
+      font-size: 1rem;
+    }
+  }
+
+  &__links ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 0.4rem;
+
+      a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        transition: $transition;
+        font-size: 0.875rem;
+
+        @media (min-width: 480px) {
+          font-size: 1rem;
+        }
+
+        &:hover {
+          color: var(--secondary-color);
+        }
+      }
+    }
+  }
+
+  &__icons a {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    margin: 0 0.4rem;
+    transition: $transition;
+
+    @media (min-width: 480px) {
+      font-size: 1.4rem;
+    }
+
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+
+  &__bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.8rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 0;
+      font-size: 0.85rem;
+    }
+
+    p {
+      margin: 0;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        margin-left: 40rem;
+      }
+    }
+
+    .scroll-top {
+      background: none;
+      border: 1px solid var(--white-color);
+      border-radius: 50%;
+      color: var(--white-color);
+      padding: 0.4rem;
+      cursor: pointer;
+      transition: $transition;
+
+      &:hover {
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+      }
+
+      svg {
+        font-size: 1rem;
+      }
+    }
+  }
+}

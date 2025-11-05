@@ -1,0 +1,81 @@
+@import "../../styles/variables";
+
+.hero {
+  padding: 2rem 0;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: var(--white-color);
+  transition: background 0.3s ease;
+
+  @media (min-width: 768px) {
+    padding: 4rem 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+  }
+}
+
+.textContent {
+  flex: 1;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+
+  @media (min-width: 480px) {
+    font-size: 2.2rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  line-height: 1.5;
+
+  @media (min-width: 480px) {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+.imageContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 15px var(--shadow-color);
+}
