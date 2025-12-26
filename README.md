@@ -45,7 +45,7 @@ Tasarım sürecinde **SCSS modülleri**, **BEM metodolojisi** ve
 
 ## 📂 Proje Yapısı
 
-```text
+text
 src/
 ├── assets/
 │   └── screenshots/
@@ -71,7 +71,7 @@ src/
 │   └── global.scss
 └── App.jsx
 
-text
+---
 
 📸 Uygulama Önizleme
 <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021856.png" width="700" />
@@ -92,4 +92,4 @@ Alternatif başlatma komutu:
 npm start
 Tarayıcıda aşağıdaki adresten erişilebilir:
 http://localhost:3000
-text
+---
