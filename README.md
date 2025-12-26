@@ -73,7 +73,8 @@ Product-Overview/
         │   └── global.scss
         └── App.jsx
 ```
-📸 Uygulama Önizleme <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021856.png" width="700" /> 
+📸 Uygulama Önizleme 
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021856.png" width="700" /> 
 <img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021906.png" width="700" />
 <img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021916.png" width="700" /> 
 <img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021927.png" width="700" />
