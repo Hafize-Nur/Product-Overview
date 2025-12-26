@@ -45,43 +45,43 @@ Tasarım sürecinde **SCSS modülleri**, **BEM metodolojisi** ve
 
 ## 📂 Proje Yapısı
 
-text
-src/
-├── assets/
-│   └── screenshots/
-├── components/
-│   ├── Accordion/
-│   ├── Button/
-│   ├── Card/
-│   ├── Comments/
-│   ├── ContactForm/
-│   ├── Footer/
-│   ├── Input/
-│   ├── Modal/
-│   ├── Navbar/
-│   └── ThemeToggle.jsx
-├── sections/
-│   ├── Contact/
-│   ├── FAQ/
-│   ├── Features/
-│   ├── Hero/
-│   └── Pricing/
-├── styles/
-│   ├── variables.scss
-│   └── global.scss
-└── App.jsx
-
----
-
+```text
+Product-Overview/
+└── product-overview/
+    └── src/
+        ├── assets/
+        │   └── screenshots/
+        ├── components/
+        │   ├── Accordion/
+        │   ├── Button/
+        │   ├── Card/
+        │   ├── Comments/
+        │   ├── ContactForm/
+        │   ├── Footer/
+        │   ├── Input/
+        │   ├── Modal/
+        │   ├── Navbar/
+        │   └── ThemeToggle.jsx
+        ├── sections/
+        │   ├── Contact/
+        │   ├── FAQ/
+        │   ├── Features/
+        │   ├── Hero/
+        │   └── Pricing/
+        ├── styles/
+        │   ├── variables.scss
+        │   └── global.scss
+        └── App.jsx
+```
 📸 Uygulama Önizleme
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021856.png" width="700" />
- <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021906.png" width="700" />
- <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021916.png" width="700" />
- <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021927.png" width="700" />
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021945.png" width="700" />
- <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 022004.png" width="700" />
- <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 022013.png" width="700" />
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 022223.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-01.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-02.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-03.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-04.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-05.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-06.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-07.png" width="700" />
+<img src="product-overview/src/assets/screenshots/screen-08.png" width="700" />
 
 ⚙️ Kurulum ve Çalıştırma
 Bağımlılıkları yüklemek için:
