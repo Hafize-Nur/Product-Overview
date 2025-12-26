@@ -74,14 +74,15 @@ Product-Overview/
         └── App.jsx
 ```
 📸 Uygulama Önizleme <img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021856.png" width="700" /> 
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021906.png" width="700" />
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021916.png" width="700" /> 
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021927.png" width="700" />
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 021945.png" width="700" /> 
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 022004.png" width="700" />
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 022013.png" width="700" /> 
-<img src="src/assets/screenshots/Ekran görüntüsü 2025-11-05 022223.png" width="700" />
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021906.png" width="700" />
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021916.png" width="700" /> 
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021927.png" width="700" />
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 021945.png" width="700" /> 
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 022004.png" width="700" />
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 022013.png" width="700" /> 
+<img src="product-overview/src/assets/screenshots/Ekran görüntüsü 2025-11-05 022223.png" width="700" />
 
+```text
 ⚙️ Kurulum ve Çalıştırma
 Bağımlılıkları yüklemek için:
 npm install
@@ -91,4 +92,4 @@ Alternatif başlatma komutu:
 npm start
 Tarayıcıda aşağıdaki adresten erişilebilir:
 http://localhost:3000
----
+```
